@@ -133,6 +133,14 @@ const SnakeGame = () => {
 
         <p className="hint">Use Arrow Keys to move</p>
       </div>
+      <div className="controls">
+        <button onClick={() => setDirection("Up")}>⬆️</button>
+        <div>
+          <button onClick={() => setDirection("Left")}>⬅️</button>
+          <button onClick={() => setDirection("Down")}>⬇️</button>
+          <button onClick={() => setDirection("Right")}>➡️</button>
+        </div>
+      </div>
     </div>
   );
 };

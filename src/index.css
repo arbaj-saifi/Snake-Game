@@ -201,3 +201,24 @@ body{
     height: 100%;
   }
 }
+.controls{
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.controls div{
+  display: flex;
+  gap: 8px;
+}
+
+.controls button{
+  background: var(--btn);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 12px;
+}
